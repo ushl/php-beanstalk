@@ -1,0 +1,16 @@
+# IDE files
+/.idea/
+
+# Temporary files
+/target/
+/out/
+*.swp
+
+# Working files
+/src/vendor
+/application.properties
+
+# Elastic Beanstalk Files
+.elasticbeanstalk/*
+!.elasticbeanstalk/*.cfg.yml
+!.elasticbeanstalk/*.global.yml
