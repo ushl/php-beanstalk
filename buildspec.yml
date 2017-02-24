@@ -1,12 +1,16 @@
 version: 0.1
 
+environment_variables:
+  plaintext:
+    COMPOSER_ALLOW_SUPERUSER: "true"
+
 phases:
   install:
     commands:
       - echo Nothing to do in install phase.
   pre_build:
     commands:
-      - composer install --no-interaction
+      - cd src && composer install --no-interaction
   build:
     commands:
       - echo Nothing to do in build phase.
