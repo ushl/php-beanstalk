@@ -16,4 +16,4 @@ phases:
 artifacts:
   base-directory: src
   files:
-    - **/*
+    - "**/*"
